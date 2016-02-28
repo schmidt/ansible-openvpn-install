@@ -1,7 +1,7 @@
 ---
 - name: Upload local user's public key for SSH
   authorized_key: user="root"
-                  key="{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+                  key="{{ lookup('file', '~/.ssh/id_lesvpn_rsa.pub') }}"
 
 - name: Disallow password authentication
   action: lineinfile dest=/etc/ssh/sshd_config regexp="^PasswordAuthentication" line="PasswordAuthentication no"
