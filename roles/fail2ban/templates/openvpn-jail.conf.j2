@@ -2,7 +2,7 @@
 
 [openvpn]
 enabled = true
-port = {{ansible_port - 20}}
+port = {{ansible_port + 1}}
 protocol = udp
 filter = openvpn
 logpath = /var/log/syslog
