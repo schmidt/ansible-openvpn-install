@@ -34,4 +34,4 @@ MIT.
 
 ## Credits
 
-[I](http://jan.sh) built this. By myself. On my computer.
+[Jan Schulz-Hofen](http://jan.sh) built this. By himself. On his computer.
