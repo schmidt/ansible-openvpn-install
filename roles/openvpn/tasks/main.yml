@@ -25,6 +25,7 @@
     timeout: 600
     responses:
       (?m)^IP address: ""
+      (?m)^Protocol \[1-2\]: ""
       (?m)^Port: "\b\b\b\b{{ansible_port + 1}}"
       (?m)^DNS \[1-\d\]: ""
       (?m)^Client name: "\b\b\b\b\b\b{{inventory_hostname}}"
